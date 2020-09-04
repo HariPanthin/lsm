@@ -1,0 +1,76 @@
+{% extends 'front/base.html' %}
+{% load static %}
+{% block content %}
+ 
+<section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="{% static "front/img/cows-farm.png" %}" class="d-block w-100 h-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static "front/img/cows-farm.png" %}" class="d-block w-100 h-50" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="{% static "front/img/cows-farm.png" %}" class="d-block w-100 h-50" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section on information about IGCC -->
+  <section class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-muted lead">Many are the reforms and societal changes required to steer our world 
+            towards a sustainable path. Changes are needed across all sectors, 
+            from the way we generate and use energy, plan and achieve food supplies,
+             to the way we design and build habitat, and the approach to transportation.
+              Across almost all areas of value-added activities, 
+              significant transformations are necessary to shift the human civilization away from a soon unbearable trajectory.
+               The transition to a more viable future, one that creates fewer impacts on climate while still enabling life on earth, will require yearly average investments estimated at USD 1 trillion until 2050. The International Green Council on Climate Change is an international organization
+                that supports countries and the private sector in their efforts to contribute towards climate and recovery action</p>
+       
+              
+              </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- section for information about IGCC -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <h1 class="text-success" style="color: #89C237 !important;">About IGCC </h1>
+          <br/>
+          <p>
+            The International Green Council on Climate Change is an international organization headquartered in Brussels at the heart of the European Union institutions with the mission to support countries and the private sector in their efforts to contribute towards climate and recovery action.
+
+          </p>
+
+          <p>
+            The Council’s mandate as set by its first General Advisory Assembly is to support all players that are making or plan to make a difference in the area of climate and green recovery. It provides funding, advisory services and capacity building on the 3 I’s of climate action: Investment, Implementation and Impact. The Council uses the opportunity offered by recent advances in the field of Artificial Intelligence to harvest in the collective knowledge and create solutions that will make impact at scale. As the counterpart on structuring climate finance projects, preparation services, implementation and monitoring of impacts, the Council adds practical, substantive, strategic, and on-demand value.
+
+          </p>
+        </div>
+
+        <div class="col-md-3" style="padding-top:100px;">
+          <img src="{% static "front/img/map-igccc.jpg" %}" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% endblock %} 

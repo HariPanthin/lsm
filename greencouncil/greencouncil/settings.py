@@ -75,6 +75,7 @@ WSGI_APPLICATION = 'greencouncil.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
+# IGCCC custom database
 
 DATABASES = {
     'default': {
